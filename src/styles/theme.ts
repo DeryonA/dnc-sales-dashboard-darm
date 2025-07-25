@@ -1,0 +1,81 @@
+import type { Theme } from '@/types'
+
+export const lighTheme: Theme = {
+  appBackground: '#FFFFFF',
+  appColor: '#000000',
+  appDefaultStroke: '#E0E0E0',
+  appLogo: 'dnc-logo-black.svg',
+  appSkeletonFrom: '#EEEEEE',
+  appSkeletonTo: '#CCCCCC',
+  buttons: {
+    alert: '#E80000',
+    alertColor: '#FFFFFF',
+    alertHover: '#D80000',
+    disabled: '#CCCCCC',
+    disabledColor: '#666666',
+    primary: '#0C70F2',
+    primaryColor: '#FFFFFF',
+    primaryHover: '#0061DE',
+  },
+  card: {
+    alert: '#E80000',
+    background: '#FFFFFF',
+    border: '#E0E0E0',
+    success: '#008000',
+    warning: '#F73A00',
+  },
+  textInput: {
+    active: '#FFFFFF',
+    activeColor: '#000000',
+    borderColor: '#E0E0E0',
+    disabled: '#EEEEEE',
+    disabledColor: '#666666',
+    disabledBorderColor: '#E0E0E0',
+    placeholderColor: '#666666',
+  },
+  typographies: {
+    error: '#FF0202',
+    subtitle: '#666666',
+    success: '#008000',
+  },
+}
+
+export const darkTheme: Theme = {
+  appBackground: '#060B26',
+  appColor: '#FFFFFF',
+  appDefaultStroke: '#21497D',
+  appLogo: 'dnc-logo-white.svg',
+  appSkeletonFrom: '#060B26',
+  appSkeletonTo: '#21497D',
+  buttons: {
+    alert: '#E80000',
+    alertColor: '#FFFFFF',
+    alertHover: '#D80000',
+    disabled: '#313649',
+    disabledColor: '#6D7B8E',
+    primary: '#0C70F2',
+    primaryColor: '#FFFFFF',
+    primaryHover: '#0061DE',
+  },
+  card: {
+    alert: '#E80000',
+    background: '#0F1535',
+    border: '#21497D',
+    success: '#008000',
+    warning: '#F73A00',
+  },
+  textInput: {
+    active: '#0F1535',
+    activeColor: '#FFFFFF',
+    borderColor: '#21497D',
+    disabled: '#282D49',
+    disabledColor: '#58677C',
+    disabledBorderColor: '#2E3F55',
+    placeholderColor: '#89A7CE',
+  },
+  typographies: {
+    error: '#FF0202',
+    subtitle: '#89A7CE',
+    success: '#008000',
+  },
+}
